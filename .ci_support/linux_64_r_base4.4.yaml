@@ -14,10 +14,6 @@ cran_mirror:
 - https://cran.r-project.org
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
-fortran_compiler:
-- gfortran
-fortran_compiler_version:
-- '14'
 libblas:
 - 3.9.* *netlib
 liblapack:
@@ -30,6 +26,3 @@ r_base:
 - '4.4'
 target_platform:
 - linux-64
-zip_keys:
-- - c_compiler_version
-  - fortran_compiler_version
